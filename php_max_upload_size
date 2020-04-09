@@ -1,0 +1,10 @@
+# vim /etc/php.ini                   [On Cent/RHEL/Fedora]
+
+# vim /etc/php/7.0/apache2/php.ini   [On Debian/Ubuntu]
+
+upload_max_filesize = 10M
+post_max_size = 10M
+max_file_uploads = 25
+
+
+systemctl restart apache2
